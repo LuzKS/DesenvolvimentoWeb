@@ -7,11 +7,10 @@
 body{
     font-family: 'Nunito';
 }
-#sombra{
-    background-color:cadetblue;
-}
+
 div{
-    background-color: rgb(160, 196, 184);
+    box-shadow: 0 2px 2px;
+    background-color: #f2f6f8;
     width: 300px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -26,12 +25,51 @@ div{
     border-radius: 8px;
 }
 input[type=text], input[type=email], input[type=password], textarea{
+    background-color: rgb(225, 235, 235);
     border: none;
     font-size: 16px;
-    margin: 0px;
+    margin: 10px 0;
     padding: auto;
     outline: 0;
     height: auto;
-    box-shadow: 0 0px 0;
     width: 100%;
+    border-radius: 1px; 
+}
+
+label{
+    margin: 10px 0;
+}
+
+fieldset{
+    border: none;
+    margin-top:20px ;
+}
+
+select{
+    border: none;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(225, 235, 235)
+}
+
+button{
+    width: 100%;
+    background-color: #8ddb8a;
+    border: none;
+    border-radius: 1px;
+}
+
+legend{
+    font-size: 23px;
+}
+
+h1{
+    text-align: center;
+}
+span{
+    color: rgb(255, 255, 255);
+    background-color: #8ddb8a;
+    border-radius: 50%;
+    padding: 0 9px;
 }
