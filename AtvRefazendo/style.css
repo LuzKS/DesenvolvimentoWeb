@@ -97,16 +97,17 @@ div{
       font-size: 12px;
     }
     .menu-indice ul li{
-      padding: 0 3%;
+      padding: 0 1%;
       transition: 0.2s;
       font-size: 12px;
+      margin: 2%;
     }
 
     div{
       padding: 0 3%;
       transition: 0.2s;
       font-size: 12px;
-      margin: 3%;
+      margin: 2%;
     }
  }
 
