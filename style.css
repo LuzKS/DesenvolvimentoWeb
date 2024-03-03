@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body {
+    background-color: #adb3c6;
+    color: #eadfce;
+    background-image: url(https://i.pinimg.com/originals/18/d1/45/18d145bd8af770b81badd903c6fa97ea.png);
+    background-size: cover;
+    background-repeat: no-repeat no-repeat;
+    background-position: center;
+
+
+}
+
+
+.menu-indice{
+    
+    display: flex;
+    box-shadow: 1px;
+    border-radius: 4px;
+
+}
+
+.menu-indice p{
+    padding: 10px;
+    margin: 5px;
+    
+}
+.menu-indice ul{
+    list-style-type: none;
+}
+.menu-indice ul {
+    float: right;
+ }
+ 
+.menu-indice ul li {
+    text-transform: capitalize;
+     display: inline;
+     margin-left: 25px;
+     font-size: 15px;
+     position: relative;
+     float: left;
+ }
+
+div{
+    background-color: transparent;
+    border-radius: 4px;
+    margin: 100px;
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255, .2 );
+    backdrop-filter: blur(5px);
+}
+
+
+
+  li a {
+    color: #adb3c6;
+    text-decoration: none;
+  }
+
+  ul li a:hover{
+    color: #eadfce;
+  }
+
+  .div3 ul li a{
+    color: #adb3c6;
+
+  }
+
+  .div3 ul li{
+    list-style-type: none;
+  }
+  .div3 ul li a:hover{
+    color: #eadfce;
+    
+  }
+ h2{
+  text-align: center;
+  padding: 5px;
+ }
+
+ .div_quem p{
+  padding: 10px;
+  text-align: center;
+ }
+
+ div:hover{
+  color: #adb3c6
+ }
