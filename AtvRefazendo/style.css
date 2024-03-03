@@ -45,6 +45,7 @@ body {
      font-size: 15px;
      position: relative;
      float: left;
+     transition: all .55s ease;
  }
 
 div{
@@ -64,7 +65,7 @@ div{
   }
 
   ul li a:hover{
-    color: #eadfce;
+    border-bottom: 2px solid white;
   }
 
   .div3 ul li a{
@@ -87,6 +88,26 @@ div{
  .div_quem p{
   padding: 10px;
   text-align: center;
+ }
+
+ @media (max-width: 720px){
+    header{
+      padding: 0 3%;
+      transition: 0.2s;
+      font-size: 12px;
+    }
+    .menu-indice ul li{
+      padding: 0 3%;
+      transition: 0.2s;
+      font-size: 12px;
+    }
+
+    div{
+      padding: 0 3%;
+      transition: 0.2s;
+      font-size: 12px;
+      margin: 3%;
+    }
  }
 
 
