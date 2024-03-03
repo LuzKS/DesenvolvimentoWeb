@@ -3,6 +3,7 @@
     src: url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
     font-weight: normal;
     font-style: normal;
+
 }
 body{
     font-family: 'Nunito';
@@ -29,11 +30,11 @@ input[type=text], input[type=email], input[type=password], textarea{
     border: none;
     font-size: 16px;
     margin: 10px 0;
-    padding: auto;
+    padding: 3%;
     outline: 0;
     height: auto;
     width: 100%;
-    border-radius: 1px; 
+    border-radius: 4px; 
 }
 
 label{
@@ -55,9 +56,14 @@ select{
 
 button{
     width: 100%;
+    height: 30px;
     background-color: #8ddb8a;
-    border: none;
-    border-radius: 1px;
+    border: 0.8px;
+    border-radius: 8px;
+    margin: 5px;
+    box-shadow: 1px 1px ;
+    
+    
 }
 
 legend{
@@ -67,9 +73,52 @@ legend{
 h1{
     text-align: center;
 }
+
 span{
     color: rgb(255, 255, 255);
     background-color: #8ddb8a;
     border-radius: 50%;
     padding: 0 9px;
+}
+
+button:hover{
+    background-color: #c5e2c3;
+    transform: translateY(-5%);
+}
+@media (max-width: 720px){
+    div{
+        padding: 0 3%;
+        transition: 0.2s;
+        font-size: 12px;
+        margin: 3%;
+    }
+    input[type=text], input[type=email], input[type=password], textarea{
+        padding: 2%;
+        transition: 0.2s;
+        font-size: 12px;
+        margin: 6px;
+    }
+    button{
+        padding: 2%;
+        transition: 0.2s;
+        font-size: 12px;
+        margin: 2%;
+    }
+    legend{
+        padding: 2%;
+        transition: 0.2s;
+        font-size: 15px;
+        margin: 2%;
+    }
+    span{
+        transition: 0.2s;
+        border-radius: 60%;
+        padding: 0 7px;
+    }
+    h1{
+        padding: 4%;
+        transition: 0.2s;
+        font-size: 25px;
+        margin: 3%;
+    }
 }
