@@ -1,19 +1,22 @@
 *{
+    src: url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 body{
     display: flex;
-    background-color: #ded7df;
+    background-color: #DCC1E9;
     height: 100vh;
     flex-direction: column;
 }
 
 header{
-    background-color: #C4A1F0;
+    background-color: #9979A8;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,9 +25,12 @@ header{
 }
 
 footer{
-    background-color: #C4A1F0;
+    background-color: #9979A8;
+    color: black;
     min-height: 50px;
     margin-top: auto;
+    text-align: center;
+    padding: 5px;
 }
 
 
@@ -36,7 +42,7 @@ ul, li{
 
 a{
     text-decoration: none;
-    color: green;
+    color: black;
 }
 
 .menu{
@@ -47,45 +53,51 @@ a{
     margin-left: 20px;
 }
 
+.logo{
+    min-width: 100px;
+    max-width: 200px;
+    
+}
+
 .menu li a{
     padding: 5px;
+    min-width: 5rem;
+    max-width: 30rem;
 }
-section h1{
+
+.menu li a:hover{
+    text-decoration: underline;
+    color: #4E3D56;
+}
+
+h1{
     margin: 20px;
+    text-align: center;
+      
+      
 
 }
 
-
-.imagens{
+.imgs{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+    max-width: 600px;
+    margin: 0 auto;
 
 }
 
-.tres{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+
+
+.imgs p{
+    padding-left: 10px;
+    
+
 }
+
 
 img{
-    padding: 4px;
+    padding: 10px;
     max-width: 200px;
     max-height: 150px;
-    width: auto;
-    height: auto;
-    margin: 20px;
-    margin-bottom: 0%;
-}
 
-div figcaption{
-    padding: 4px;
-    margin-left: 20px;
 }
