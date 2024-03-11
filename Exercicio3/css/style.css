@@ -10,13 +10,13 @@
 
 body{
     display: flex;
-    background-color: #DCC1E9;
+    background-color: #FAE1B3;
     height: 100vh;
     flex-direction: column;
 }
 
 header{
-    background-color: #9979A8;
+    background-color: #A28246;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,15 +25,14 @@ header{
 }
 
 footer{
-    background-color: #9979A8;
-    color: black;
-    min-height: 50px;
+    background-color: #A28246;
+    color: rgb(233, 225, 193);
+    min-height: 30px;
     margin-top: auto;
     text-align: center;
     padding: 5px;
+    max-width: 100%;
 }
-
-
 
 ul, li{
     list-style: none;
@@ -42,7 +41,7 @@ ul, li{
 
 a{
     text-decoration: none;
-    color: black;
+    color: rgb(233, 225, 193);
 }
 
 .menu{
@@ -65,17 +64,13 @@ a{
     max-width: 30rem;
 }
 
-.menu li a:hover{
-    text-decoration: underline;
-    color: #4E3D56;
-}
-
 h1{
+    padding-top: 10px ;
     margin: 20px;
     text-align: center;
-      
-      
-
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .imgs{
@@ -83,10 +78,7 @@ h1{
     flex-wrap: wrap;
     max-width: 600px;
     margin: 0 auto;
-
 }
-
-
 
 .imgs p{
     padding-left: 10px;
@@ -94,10 +86,13 @@ h1{
 
 }
 
-
 img{
     padding: 10px;
     max-width: 200px;
     max-height: 150px;
 
+}
+.menu li a:hover{
+    text-decoration: underline;
+    color: rgb(211, 201, 160);
 }
